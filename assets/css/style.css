@@ -1,0 +1,79 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    background-image: url(../img/sfondo.png);
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+header {
+    background-color: rgb(35 140 169);
+    height: 290px;
+    width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 1px 0 0 rgb(139 141 157 / 5%), 0 5px 10px 0 rgb(0 0 0 / 68%);
+    text-align: center;
+    margin-top: 20px;
+}
+.logo img {
+    display: block;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+       
+}
+.logo {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.under-logo {
+    margin-bottom: 25.5px;
+    font-size: 1.1em;
+}
+.menu {
+    font-size: 1.1em;
+}
+.menu :nth-child(2) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div p {
+    color: white;
+    font-weight: bold;
+}
+
+/* MAIN */
+
+main {
+    background-color: white;
+    width: 390px;
+    height: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    box-sizing: border-box;
+    padding: 50.1px 14.2px 50.1px 14.2px;
+    box-shadow: 0 1px 0 0 rgb(139 141 157 / 5%), 0 5px 10px 0 rgb(0 0 0 / 68%);
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+h1 {
+    font-weight: bold;
+    font-size: 2.2em;
+    margin-bottom: 33px;
+    line-height: 1.4;
+}
+p:first-child {
+color: blue;
+}
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
